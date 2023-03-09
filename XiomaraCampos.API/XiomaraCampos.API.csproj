@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XiomaraCampos.BL.DTOs\XiomaraCampos.BL.DTOs.csproj" />
+    <ProjectReference Include="..\XiomaraCampos.BL.Interfaces\XiomaraCampos.BL.Interfaces.csproj" />
+    <ProjectReference Include="..\XiomaraCampos.IoC\XiomaraCampos.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

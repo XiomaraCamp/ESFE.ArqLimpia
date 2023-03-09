@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.EN", "ESFE.ArqLimpia.EN\XiomaraCampos.EN.csproj", "{35F24710-47A1-4D52-8D63-95EDE3E45A63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{75E636CB-F4AB-4D1E-96A0-790D090D0EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{42357109-5EC4-4331-8BFD-6D3F89FE290B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adapter", "Interface Adapter", "{72E61815-945A-4625-B97B-7C34599D678D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrameworksAdapter", "FrameworksAdapter", "{C34DD3A3-CBCF-4329-A21F-9560B4D032DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.EN.Interfaces", "XiomaraCampos.EN.Interfaces\XiomaraCampos.EN.Interfaces.csproj", "{5A4E5448-2471-4857-A249-F99AB71EFF58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.BL", "XiomaraCampos.BL\XiomaraCampos.BL.csproj", "{329C6B62-8F10-460E-AAF9-BCD46CD1B551}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.BL.Interfaces", "XiomaraCampos.BL.Interfaces\XiomaraCampos.BL.Interfaces.csproj", "{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.BL.DTOs", "XiomaraCampos.BL.DTOs\XiomaraCampos.BL.DTOs.csproj", "{69171AA9-362B-4C51-8897-D00EAC77910B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.DAL", "XiomaraCampos.DAL\XiomaraCampos.DAL.csproj", "{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.IoC", "XiomaraCampos.IoC\XiomaraCampos.IoC.csproj", "{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiomaraCampos.API", "XiomaraCampos.API\XiomaraCampos.API.csproj", "{D04B83DE-4BF8-4005-A909-44CD244B2600}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35F24710-47A1-4D52-8D63-95EDE3E45A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F24710-47A1-4D52-8D63-95EDE3E45A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F24710-47A1-4D52-8D63-95EDE3E45A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F24710-47A1-4D52-8D63-95EDE3E45A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4E5448-2471-4857-A249-F99AB71EFF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4E5448-2471-4857-A249-F99AB71EFF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4E5448-2471-4857-A249-F99AB71EFF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4E5448-2471-4857-A249-F99AB71EFF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329C6B62-8F10-460E-AAF9-BCD46CD1B551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329C6B62-8F10-460E-AAF9-BCD46CD1B551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329C6B62-8F10-460E-AAF9-BCD46CD1B551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329C6B62-8F10-460E-AAF9-BCD46CD1B551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69171AA9-362B-4C51-8897-D00EAC77910B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69171AA9-362B-4C51-8897-D00EAC77910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69171AA9-362B-4C51-8897-D00EAC77910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69171AA9-362B-4C51-8897-D00EAC77910B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04B83DE-4BF8-4005-A909-44CD244B2600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04B83DE-4BF8-4005-A909-44CD244B2600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04B83DE-4BF8-4005-A909-44CD244B2600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04B83DE-4BF8-4005-A909-44CD244B2600}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35F24710-47A1-4D52-8D63-95EDE3E45A63} = {75E636CB-F4AB-4D1E-96A0-790D090D0EB5}
+		{5A4E5448-2471-4857-A249-F99AB71EFF58} = {75E636CB-F4AB-4D1E-96A0-790D090D0EB5}
+		{329C6B62-8F10-460E-AAF9-BCD46CD1B551} = {42357109-5EC4-4331-8BFD-6D3F89FE290B}
+		{E9D0BB23-EA56-4FCA-95E7-3939788E4B1A} = {42357109-5EC4-4331-8BFD-6D3F89FE290B}
+		{69171AA9-362B-4C51-8897-D00EAC77910B} = {42357109-5EC4-4331-8BFD-6D3F89FE290B}
+		{11A9EF54-7437-4C0E-A50F-CEFB38EFD27F} = {72E61815-945A-4625-B97B-7C34599D678D}
+		{2EFAB347-AC11-46B1-BF08-3FAF7E243FCD} = {72E61815-945A-4625-B97B-7C34599D678D}
+		{D04B83DE-4BF8-4005-A909-44CD244B2600} = {C34DD3A3-CBCF-4329-A21F-9560B4D032DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B87CAB8A-589B-4B63-B060-AA43FE6AD645}
+	EndGlobalSection
+EndGlobal

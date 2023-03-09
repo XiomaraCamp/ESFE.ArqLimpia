@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE.ArqLimpia.EN\XiomaraCampos.EN.csproj" />
+    <ProjectReference Include="..\XiomaraCampos.BL.DTOs\XiomaraCampos.BL.DTOs.csproj" />
+    <ProjectReference Include="..\XiomaraCampos.BL.Interfaces\XiomaraCampos.BL.Interfaces.csproj" />
+    <ProjectReference Include="..\XiomaraCampos.EN.Interfaces\XiomaraCampos.EN.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
